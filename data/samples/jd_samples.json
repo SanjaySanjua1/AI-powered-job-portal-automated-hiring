@@ -1,0 +1,58 @@
+[
+  {
+    "job_id": "JD-001",
+    "job_title": "Senior Backend Developer",
+    "department": "Engineering",
+    "location": "Remote",
+    "employment_type": "Full-Time",
+    "summary": "We are seeking a Senior Backend Engineer to maintain and scale our distributed AI microservices architecture.",
+    "roles_and_responsibilities": [
+      "Design and implement scalable Python backend APIs using FastAPI.",
+      "Optimize local language model inferences.",
+      "Mentor junior engineers and manage code reviews."
+    ],
+    "required_skills": [
+      { "name": "Python", "is_mandatory": true, "min_experience_years": 5 },
+      { "name": "FastAPI", "is_mandatory": true, "min_experience_years": 2 },
+      { "name": "PostgreSQL", "is_mandatory": true, "min_experience_years": 3 },
+      { "name": "Docker", "is_mandatory": false, "min_experience_years": 1 }
+    ],
+    "experience_requirements": {
+      "min_years": 5,
+      "max_years": 10,
+      "preferred_background": "Experience in FinTech or AI scaling environments highly preferred."
+    },
+    "education_requirements": {
+      "min_degree": "B.Sc. in Computer Science or related",
+      "preferred_field": "Computer Science"
+    }
+  },
+  {
+    "job_id": "JD-002",
+    "job_title": "Data Scientist (AI focus)",
+    "department": "AI & Research",
+    "location": "New York, NY",
+    "employment_type": "Full-Time",
+    "summary": "Join our AI lab to research and deploy predictive models and foundational NLP tools.",
+    "roles_and_responsibilities": [
+      "Process unstructured text data and design NLP pipelines.",
+      "Train, fine-tune, and evaluate deep learning models using PyTorch.",
+      "Collaborate with the data engineering team for model deployment."
+    ],
+    "required_skills": [
+      { "name": "Python", "is_mandatory": true, "min_experience_years": 3 },
+      { "name": "PyTorch", "is_mandatory": true, "min_experience_years": 2 },
+      { "name": "NLP", "is_mandatory": true, "min_experience_years": 2 },
+      { "name": "SQL", "is_mandatory": false, "min_experience_years": 0 }
+    ],
+    "experience_requirements": {
+      "min_years": 3,
+      "max_years": null,
+      "preferred_background": "Prior experience training models on large text corpora."
+    },
+    "education_requirements": {
+      "min_degree": "M.Sc. or Ph.D in Computer Science, Statistics, or similar Data field.",
+      "preferred_field": "Data Science or NLP"
+    }
+  }
+]

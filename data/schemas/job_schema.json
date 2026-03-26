@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Job Description Schema",
+  "type": "object",
+  "properties": {
+    "job_id": { "type": "string" },
+    "job_title": { "type": "string" },
+    "department": { "type": "string" },
+    "location": { "type": "string" },
+    "employment_type": { "type": "string", "enum": ["Full-Time", "Part-Time", "Contract", "Freelance", "Internship"] },
+    "summary": { "type": "string" },
+    "roles_and_responsibilities": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "required_skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "is_mandatory": { "type": "boolean", "default": true },
+          "min_experience_years": { "type": "number", "default": 0 }
+        },
+        "required": ["name", "is_mandatory"]
+      }
+    },
+    "experience_requirements": {
+      "type": "object",
+      "properties": {
+        "min_years": { "type": "number" },
+        "max_years": { "type": "number" },
+        "preferred_background": { "type": "string" }
+      },
+      "required": ["min_years"]
+    },
+    "education_requirements": {
+      "type": "object",
+      "properties": {
+        "min_degree": { "type": "string" },
+        "preferred_field": { "type": "string" }
+      },
+      "required": ["min_degree"]
+    }
+  },
+  "required": ["job_title", "roles_and_responsibilities", "required_skills", "experience_requirements"]
+}

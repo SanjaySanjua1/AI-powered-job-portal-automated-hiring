@@ -1,0 +1,129 @@
+[
+  {
+    "candidate_id": "C-001",
+    "personal_info": {
+      "name": "Jane Doe",
+      "email": "jane.doe@example.com",
+      "phone": "+1-555-0102",
+      "location": "San Francisco, CA"
+    },
+    "summary": "Senior Software Engineer with 8 years of experience building scalable backend services.",
+    "skills": [
+      { "name": "Python", "category": "Programming Languages", "proficiency": "Expert" },
+      { "name": "Django", "category": "Frameworks", "proficiency": "Expert" },
+      { "name": "AWS", "category": "Cloud", "proficiency": "Intermediate" },
+      { "name": "Docker", "category": "DevOps", "proficiency": "Intermediate" }
+    ],
+    "experience": [
+      {
+        "job_title": "Senior Backend Developer",
+        "company": "TechNova Solutions",
+        "start_date": "2020-05-01",
+        "end_date": "2026-03-26",
+        "description": "Architected microservices that scaled to 1M daily active users.",
+        "achievements": [
+          "Reduced cloud costs by 30% through optimization of ECS tasks.",
+          "Migrated monolithic architecture to FastAPI microservices."
+        ]
+      },
+      {
+        "job_title": "Software Engineer",
+        "company": "StartUp Inc.",
+        "start_date": "2016-08-01",
+        "end_date": "2020-04-30",
+        "description": "Developed server-side web application logic.",
+        "achievements": [
+          "Implemented background task processing with Celery/Redis."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.Sc. in Computer Science",
+        "institution": "University of California, Berkeley",
+        "graduation_year": 2016
+      }
+    ],
+    "certifications": [
+      { "name": "AWS Certified Solutions Architect", "issuer": "Amazon Web Services", "year": 2022 }
+    ]
+  },
+  {
+    "candidate_id": "C-002",
+    "personal_info": {
+      "name": "Michael Smith",
+      "email": "msmith.dev@example.com",
+      "phone": "+44-7700-900077",
+      "location": "London, UK"
+    },
+    "summary": "Front-end Specialist focused on React.js and highly interactive UI components.",
+    "skills": [
+      { "name": "JavaScript", "category": "Programming Languages", "proficiency": "Expert" },
+      { "name": "React.js", "category": "Frameworks", "proficiency": "Expert" },
+      { "name": "CSS/Tailwind", "category": "Styling", "proficiency": "Expert" }
+    ],
+    "experience": [
+      {
+        "job_title": "Frontend Engineer",
+        "company": "Creative Web Agency",
+        "start_date": "2021-02-01",
+        "end_date": null,
+        "description": "Leading the React UI team for multiple e-commerce clients.",
+        "achievements": [
+          "Improved Core Web Vitals resulting in 20% higher conversion rate.",
+          "Standardized internal UI component library."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diploma in Web Development",
+        "institution": "General Assembly",
+        "graduation_year": 2021
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "candidate_id": "C-003",
+    "personal_info": {
+      "name": "Sarah Lee",
+      "email": "sarah.lee.data@example.com",
+      "phone": "+1-555-0199",
+      "location": "New York, NY"
+    },
+    "summary": "Data Scientist with a deep interest in generative AI and predictive modeling.",
+    "skills": [
+      { "name": "Python", "category": "Programming Languages", "proficiency": "Expert" },
+      { "name": "PyTorch", "category": "Frameworks", "proficiency": "Intermediate" },
+      { "name": "SQL", "category": "Databases", "proficiency": "Expert" },
+      { "name": "Data Visualization", "category": "Analytics", "proficiency": "Intermediate" }
+    ],
+    "experience": [
+      {
+        "job_title": "Data Scientist",
+        "company": "FinTech Analytics",
+        "start_date": "2019-06-01",
+        "end_date": "2025-12-30",
+        "description": "Designed predictive models for credit risk assessment.",
+        "achievements": [
+          "Developed an XGBoost model that reduced default rates by 15%.",
+          "Automated dashboard reporting using Python and Tableau."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "M.Sc. in Data Science",
+        "institution": "New York University",
+        "graduation_year": 2019
+      },
+      {
+        "degree": "B.Sc. in Mathematics",
+        "institution": "Cornell University",
+        "graduation_year": 2017
+      }
+    ],
+    "certifications": []
+  }
+]
